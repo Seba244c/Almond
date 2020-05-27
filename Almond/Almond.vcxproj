@@ -151,6 +151,10 @@
     <ClInclude Include="src\Almond\Application.h" />
     <ClInclude Include="src\Almond\Core.h" />
     <ClInclude Include="src\Almond\EntryPoint.h" />
+    <ClInclude Include="src\Almond\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Almond\Events\Event.h" />
+    <ClInclude Include="src\Almond\Events\KeyEvent.h" />
+    <ClInclude Include="src\Almond\Events\MouseEvent.h" />
     <ClInclude Include="src\Almond\Log.h" />
   </ItemGroup>
   <ItemGroup>

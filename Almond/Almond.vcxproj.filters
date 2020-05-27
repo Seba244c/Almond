@@ -19,6 +19,10 @@
     <ClInclude Include="src\Almond\Log.h">
       <Filter>Almond</Filter>
     </ClInclude>
+    <ClInclude Include="src\Almond\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Almond\Events\Event.h" />
+    <ClInclude Include="src\Almond\Events\KeyEvent.h" />
+    <ClInclude Include="src\Almond\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Almond\Application.cpp">
