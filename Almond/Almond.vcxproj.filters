@@ -4,6 +4,9 @@
     <Filter Include="Almond">
       <UniqueIdentifier>{20585EA7-0CFA-887D-F5B4-9CD1E1F50FCE}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Almond\Events">
+      <UniqueIdentifier>{04A07BE6-7060-F71C-399B-409AA51A3CF9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Almond.h" />
@@ -16,13 +19,22 @@
     <ClInclude Include="src\Almond\EntryPoint.h">
       <Filter>Almond</Filter>
     </ClInclude>
+    <ClInclude Include="src\Almond\Events\ApplicationEvent.h">
+      <Filter>Almond\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Almond\Events\Event.h">
+      <Filter>Almond\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Almond\Events\KeyEvent.h">
+      <Filter>Almond\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Almond\Events\MouseEvent.h">
+      <Filter>Almond\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Almond\Log.h">
       <Filter>Almond</Filter>
     </ClInclude>
-    <ClInclude Include="src\Almond\Events\ApplicationEvent.h" />
-    <ClInclude Include="src\Almond\Events\Event.h" />
-    <ClInclude Include="src\Almond\Events\KeyEvent.h" />
-    <ClInclude Include="src\Almond\Events\MouseEvent.h" />
+    <ClInclude Include="src\ampch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Almond\Application.cpp">
@@ -31,5 +43,6 @@
     <ClCompile Include="src\Almond\Log.cpp">
       <Filter>Almond</Filter>
     </ClCompile>
+    <ClCompile Include="src\ampch.cpp" />
   </ItemGroup>
 </Project>

@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Almond {
 
 	class ALMOND_API WindowResizeEvent : public Event

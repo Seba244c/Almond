@@ -1,9 +1,7 @@
 #pragma once
 
-#include "../Core.h"
-
-#include <string>
-#include <functional>
+#include "ampch.h"
+#include "Almond/Core.h"
 
 namespace Almond {
 

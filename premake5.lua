@@ -29,7 +29,10 @@ project "Almond"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
-
+	
+	pchheader "ampch.h"
+	pchsource "Almond/src/ampch.cpp"
+	
 	files
 	{
 		"%{prj.name}/src/**.h",
@@ -38,6 +41,7 @@ project "Almond"
 
 	includedirs
 	{
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 
@@ -85,6 +89,7 @@ project "Sandbox"
 
 	includedirs
 	{
+
 		"Almond/vendor/spdlog/include",
 		"Almond/src"
 	}
