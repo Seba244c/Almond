@@ -35,6 +35,8 @@
       <Filter>Almond</Filter>
     </ClInclude>
     <ClInclude Include="src\ampch.h" />
+    <ClInclude Include="src\Almond\Window.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Almond\Application.cpp">
@@ -44,5 +46,6 @@
       <Filter>Almond</Filter>
     </ClCompile>
     <ClCompile Include="src\ampch.cpp" />
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
   </ItemGroup>
 </Project>

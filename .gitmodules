@@ -2,6 +2,6 @@
 	path = Almond/vendor/spdlog
 	url = https://github.com/gabime/spdlog
 	branch = v1.x
-[submodule ".\\Almond\\vendor\\GLFW"]
-	path = .\\Almond\\vendor\\GLFW
+[submodule "Almond/vendor/GLFW"]
+	path = Almond/vendor/GLFW
 	url = https://github.com/TheCherno/glfw
