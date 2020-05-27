@@ -2,9 +2,9 @@
 
 // FOR USE BY ALMOND APPLICATIONS
 
-#include <stdio.h>
 #include "Almond/Application.h"
+#include "Almond/Log.h"
 
-// --- ENTRY POINT ---
+// --- ENTRY POINT -----------
 #include "Almond/EntryPoint.h"
-// -------------------
+// ---------------------------

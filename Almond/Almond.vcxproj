@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Almond\Log.h" />
     <ClInclude Include="src\Almond.h" />
     <ClInclude Include="src\Almond\Application.h" />
     <ClInclude Include="src\Almond\Core.h" />
     <ClInclude Include="src\Almond\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Almond\Log.cpp" />
     <ClCompile Include="src\Almond\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -70,6 +72,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>AM_BUILD_DLL;AM_PLATFORM_WINDOWS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Almond\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -84,6 +87,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>AM_BUILD_DLL;AM_PLATFORM_WINDOWS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Almond\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

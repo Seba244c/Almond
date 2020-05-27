@@ -5,7 +5,10 @@
 extern Almond::Application* Almond::CreateApplication();
 
 int main(int argc, char** argv) {
-	printf("Almond Engine\n");
+	Almond::Log::Init();
+	AM_CORE_WARN("Initialized Log!");
+	AM_INFO("Hello!");
+
 	auto app = Almond::CreateApplication();
 	app->Run();
 	delete app;
